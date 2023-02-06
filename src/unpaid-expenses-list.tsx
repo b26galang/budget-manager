@@ -1,9 +1,5 @@
 import { Expense, BudgetManagerAction } from "./reducers/budget-manager-reducer"
 
-type UnpaidExpensesProps = {
-    unpaidExpenses: Expense[],
-    dispatch: React.Dispatch<BudgetManagerAction>
-}
 
 const tdStyle: React.CSSProperties = {
     color: "white",
@@ -35,6 +31,11 @@ const paidStyle: React.CSSProperties = {
     borderRadius: "4px",
     border: "1px solid black",
     padding: "2px 20px"
+}
+
+type UnpaidExpensesProps = {
+    unpaidExpenses: Expense[],
+    dispatch: React.Dispatch<BudgetManagerAction>
 }
 
 

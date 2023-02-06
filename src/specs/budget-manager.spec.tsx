@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react"
 import { Expense } from "../reducers/budget-manager-reducer"
 import { UnpaidExpensesList} from "../unpaid-expenses-list" 
 
+
 test("Display expenses", async () => {
     const expenses: Expense[] = [
         {    

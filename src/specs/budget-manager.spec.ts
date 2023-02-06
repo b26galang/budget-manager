@@ -1,4 +1,5 @@
-import { BudgetManagerState, budgetManagerReducer, Expense } from "../reducers/budget-manager-reducer";
+import { BudgetManagerState, budgetManagerReducer } from "../reducers/budget-manager-reducer";
+
 
 test("SET EXPENSE", () =>{
     const budgetState: BudgetManagerState = {
